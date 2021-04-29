@@ -1,0 +1,25 @@
+.mobile-service-container{
+    background: 
+        /* top, transparent red, faked with gradient */ 
+        linear-gradient(
+            #00000083,
+            #1d2722
+        ),
+        /* bottom, image */
+        url("https://i.ibb.co/WtPdx1z/mobile-emergency-servicing.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+      color: azure;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.exception{
+    color: whitesmoke;
+}
+.mobile-service-container h1 h3{
+    font-size: 50px;
+    color: whitesmoke;
+}

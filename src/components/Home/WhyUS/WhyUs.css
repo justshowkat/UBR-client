@@ -1,0 +1,61 @@
+.why-us-section{
+   padding: 20px;
+   margin: 40px;
+}
+.why-us-container{
+        background: 
+        /* top, transparent red, faked with gradient */ 
+        linear-gradient(
+            #00000083,
+            #1d2722
+        ),
+        /* bottom, image */
+        url("https://i.ibb.co/WpMFJF5/why-us-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: auto;
+      color: white;
+      text-align: left;
+}
+
+.why-us-section-image{
+    border-radius: 10px;
+}
+
+.why-us-points h1{
+    font-size: 35px;
+}
+
+.why-us-card {
+    width: 25rem; 
+    background: transparent;
+    border: none
+}
+
+@media only screen and (max-width: 450px) {
+    .why-us-section{
+        padding: 15px;
+        margin: 15px;
+        text-align: center;
+     }
+    .first-column{
+        display: none;
+        width: 100%;
+    }
+    .why-us-card {
+        width: 100%;
+    }
+    .why-us-card h1{
+        font-size: 20px;
+    }
+
+    .second-column{
+    }
+    .second-column h1 h3{
+        font-size: 15px;
+    }
+    .second-column h3{
+        font-size: 15px;
+    }
+}

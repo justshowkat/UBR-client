@@ -1,0 +1,26 @@
+.custom-service-card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgba(0, 53, 44, 0.205);
+    margin: 20px;
+    background-color: #f1fff9;
+    transition: width .5s, height 2s, transform 2s;
+}
+
+.custom-service-card:hover{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgba(236, 255, 252, 0.287);
+    margin: 20px;
+    background-color: #f1fff9;
+    transform: rotate(-5deg);
+}
+
+.service-icon{
+    font-size: 80px;
+    background-color: #BCFEE0;
+    color: #2d684d;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}

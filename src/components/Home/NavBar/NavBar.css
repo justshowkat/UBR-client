@@ -1,0 +1,16 @@
+.custom-nav{
+    background-color: #ecfff7;
+    color: #0b132b;
+    /* padding: 10px; */
+}
+
+.custom-button{
+    background-color: #BCFEE0;
+    color: #2d684d;
+    border: none;
+}
+.custom-button:hover{
+    background-color: #3e8364;
+    color: #ffffff;
+    border: none;
+}

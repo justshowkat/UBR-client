@@ -1,0 +1,18 @@
+.review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.custom-review-card{
+    text-align: left;
+    background-color: rgb(240, 255, 250);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px gray;
+}
+.custom-review-card h1, h3{
+    text-align: center;
+    color: rgb(66, 97, 81);
+}

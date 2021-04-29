@@ -1,0 +1,36 @@
+.booking-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.booking-list-card{
+    width:480px;
+    border: none;
+    box-shadow: 5px 4px 8px gray;
+    background-color: rgb(246, 255, 251);
+    padding: 15px;
+    margin: 25px;
+}
+
+.booking-list-card h1{
+    font-size: 80px;
+    background-color: rgb(226, 255, 238);
+    border-radius: 10%;
+    color: rgb(108, 255, 199);
+    padding: 20px;
+}
+
+.booking-list-card-success{
+    background-color: rgb(217, 255, 233);
+    color: rgb(1, 139, 86);
+    border-top: 2px solid rgb(1, 139, 86);
+    border-radius: 5px;
+}
+.booking-list-card-error{
+    background-color: rgb(255, 231, 217);
+    color: rgb(139, 1, 1);
+    border-top: 2px solid rgb(139, 1, 1);
+    border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.login-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.login-button{
+    padding: 5px 80px;
+    background-color: rgb(255, 124, 119);
+    color: whitesmoke;
+    border: none;
+    margin: 20px;
+}
+.login-button:hover{
+    padding: 5px 80px;
+    background-color: rgb(255, 8, 0);
+    color: whitesmoke;
+    border: none;
+}
+
+.google-icon{
+    color: #ffeaef;
+}

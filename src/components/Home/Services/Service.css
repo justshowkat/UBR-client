@@ -1,0 +1,31 @@
+.service-section{
+    /* background-color: #BCFEE0; */
+    background-image: linear-gradient(to bottom, #d3ffeb, #95ffcf, #1f8992);
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+.service-section-header{
+    padding: 20px;
+    margin: 50px;
+}
+
+.service-section-header h1 {
+    font-size: 60px;
+}
+
+.service-section-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 450px){
+    .service-section-body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

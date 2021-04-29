@@ -1,0 +1,25 @@
+.book-a-service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.book-a-service-custom-card{
+    width: 30%;
+    text-align: left;
+    border: none;
+    box-shadow: 5px 5px 8px gray;
+    padding: 15px;
+    margin: 25px;
+}
+
+.book-a-service-custom-card-footer{
+    /* display: none; */
+    background-color: rgb(132, 255, 189);
+}
+
+.payment-section{
+    padding: 10px;
+    margin: 5px 0px;
+}
